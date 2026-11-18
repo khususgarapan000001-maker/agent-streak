@@ -33,17 +33,28 @@ Chinese (for the form):
 ## 3. 项目合约地址 / Project contract address (BscScan link, verified + open-source)
 
 ```
-TBD after deployment — https://bscscan.com/address/<deployed AgentStreak address>
+https://bscscan.com/address/0x45F2A11fb4816098923EFbEC6208CE9413727A3D
 ```
 
-The contract source will be verified on BscScan (see DEPLOY.md) and is
-open-source in this repo.
+Deployed 19 Nov 2026 ~00:03 WIB from 0xe409BaFfD08c7459bA1998bEC08337ACD8Dc337D
+(Bitget Wallet) via Remix. Constructor arg: the official Agent ID contract
+0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F. **Sourcify-verified exact match**
+(creation + runtime, 2026-11-18T17:04:11Z). Compilation settings (from
+Sourcify metadata): solc 0.8.34+commit.80d5c536, optimizer OFF, EVM osaka —
+note: Remix deployed the first-compile artifact, not the 0.8.26/paris/
+optimizer-200 recompile; functionally identical, verified on-chain
+(AGENT_ID() correct, holdsAgentId(Agentic)=true). BscScan verification
+pending (use the settings above + constructor args
+00000000000000000000000060b9262456de011f7d15a54cdd8c48baaa8b022f).
+Source open in this repo.
 
 ## 4. 项目官网 / 产品入口 / Project website / product link
 
 ```
-TBD after hosting — static site from frontend/ (GitHub Pages / Netlify / IPFS)
+https://khususgarapan000001-maker.github.io/agent-streak/
 ```
+
+Static site from frontend/ (GitHub Pages, gh-pages branch).
 
 ## Agent ID usage description (for the form's Agent ID section, if present)
 
@@ -70,6 +81,6 @@ Chinese:
 - **Reward receiving address:** TBD — the wallet that should receive any prize
   (confirm with the project owner before submitting).
 - **Team / contact:** TBD — name + contact (X / Telegram / email) of the submitter.
-- **GitHub / source repo:** TBD — public repo URL once this project is pushed
-  to GitHub.
-- **Agent ID of the submitter:** `akmdrzzz.ai` (holder: the deployer wallet).
+- **GitHub / source repo:** https://github.com/khususgarapan000001-maker/agent-streak
+- **Agent ID of the submitter:** `akmdrzzz.ai` (holder: the Agentic Wallet
+  0xcBaE5e7ecCC487E4596B8cA7441ab92f1DB737e2 — NOT the deployer wallet).
